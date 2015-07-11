@@ -35,7 +35,7 @@ var _ = { };
       if(n > array.length){
         return array;
       }
-      return array.slice(array.length-1, n);
+      return array.slice(array.length-n, array.length);
     }
   };
 
